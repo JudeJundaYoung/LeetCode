@@ -1,0 +1,9 @@
+#How Should You Write a Swap Function
+
+public void swap(int[] A, int i, int j){
+    if(i!=j){
+        A[i]^=A[j];
+        A[j]^=A[i];
+        A[i]^=A[j];
+    }
+}
