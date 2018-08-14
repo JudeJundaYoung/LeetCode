@@ -57,3 +57,29 @@ public int missingNumber(int[] nums) {
     return num;
 }
 ```
+
+### Reverse Bits
+
+```Java
+public int reverseBits(int n) {
+    int num = 0;
+    for(int i = 0; i<32; i++){
+        num = num<<1;
+        // Get the bit at the tail;
+        num+= n&1; 
+        n = n >>1;
+    }
+    return num;
+}
+```
+
+### Find Complementary Number
+
+```Java
+public int findComplement(int num) {
+        // highestOneBit return the binary representation of 
+        // number with a leftmost one bit of the original number;
+        return ~num + (Integer.highestOneBit(num)<<1);
+}
+```
+
