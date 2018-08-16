@@ -1,7 +1,7 @@
 Graphs
 ===
-# Minimum Height Trees
-## Solution 1
+## Minimum Height Trees
+### Solution 1
     
     Keeping removing leaves until no more than 2 nodes left in the graph.
     This method is based on that there is a/two longest route(s) from leaves to the root.
