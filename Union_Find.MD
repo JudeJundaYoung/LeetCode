@@ -1,5 +1,12 @@
 Union_Find
 =
+## Two Methods to Optimize Union_Find
+
+### Union by Ranks
+
+### Compression
+
+
 
 ## Surrounded Regions
 
